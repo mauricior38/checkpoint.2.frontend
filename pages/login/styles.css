@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+main{
+    min-width: 400px;
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://i0.wp.com/wallpapertag.com/wallpaper/full/d/b/5/429543-best-dragon-ball-z-wallpapers-goku-1920x1080-lockscreen.jpg");
+    opacity: 0.8;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 0 5em rgb(0, 0, 0)
+
+}
+
+
+.login{
+    background-color: #ffffffe4;
+    width: 600px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    padding: 50px;
+
+    box-shadow: 0 0 5em gold
+}
+
+
+.login-topimg img{
+    width: 100px;
+}
+
+.login-text h1{
+    color: rgba(11, 11, 11, 0.9);
+    font-size: 5rem;
+    font-weight: 700;
+}
+.login-text p{
+    color: rgba(11, 11, 11, 0.9);
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.login-forms{
+    width: 100%;
+}
+
+.login-forms form{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+.login-forms form .login-email, .login-passwd{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-label{
+    color: rgba(11, 11, 11, 0.9);
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+
+.login-input input{
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+
+    font-size: 1.1rem;
+
+    border: solid rgba(11, 11, 11, 0.9) 1px;
+}
+
+.login-forms form input:valid {
+    background-color: rgba(7, 224, 10, 0.2);
+    border:solid  rgba(0, 0, 0, 0.7) 1px;
+}
+
+.login-forms .login-action{
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-remember{
+    display: flex;
+    gap: 10px;
+}
+
+.login-action input{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+
+    font-size: 1.1rem;
+
+    border: solid rgba(11, 11, 11, 0.9) 1px;
+}
+
+.login-forms button{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FFF;
+    
+
+    width: 50%;
+    padding: 15px 15px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+    background-color: #4800ffcd;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+
+.login .login-cadastro{
+    display: flex;
+    gap: 5px;
+    margin: 0 auto;
+    margin-bottom: -40px;
+}
+
+.goku-favorito select{
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.goku-favorito select:valid{
+    background-color: rgba(7, 224, 10, 0.2);
+}
+
+@media screen and (max-width: 700px) {
+    main{
+        height: 145vh;
+    }
+
+    .login{
+        width: 90%;
+    }
+  }
+
+
+

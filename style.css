@@ -310,7 +310,8 @@ footer p{
 footer .profiles {
     display: flex;
     justify-content: center;
-        
+    
+    flex-wrap: wrap;
     gap: 20px;
 
 
@@ -319,6 +320,32 @@ footer .profiles {
 
     padding-bottom: 50px;
 }
+
+
+footer .profiles .social-item ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer .profiles .social-item a{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+
+    cursor: pointer;
+}
+
+footer .profiles .social-item a img{
+    width: 30px;
+    border-radius: 50px;
+}
+
+
 
 footer .profiles .profile{
     display: flex;

@@ -21,9 +21,9 @@
         <div class="menu-line"></div>
         <nav>
           <ul>
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#Home">Versões</a></li>
-            <li><a href="#Home">Inimigos</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#versoes">Versões</a></li>
+            <li><a href="#equipe">Equipe</a></li>
             <li><a href="./pages/login/login.html">Login</a></li>
           </ul>
         </nav>
@@ -33,7 +33,7 @@
 
     <main>
 
-      <section class="main-banner">       
+      <section class="main-banner" id="home">       
           
         <div class="banner-content">
             <img src="https://www.pngmart.com/files/3/Dragon-Ball-Goku-PNG-Clipart.png" alt="">
@@ -48,7 +48,7 @@
 
            
               <a href="#">
-                <img src="https://i0.wp.com/i.ya-webdesign.com/images/esferas-del-dragon-png-19.png" alt="esfera">
+                <img src="https://i0.wp.com/i.ya-webdesign.com/images/esferas-del-dragon-png-19.png" alt="esfera" >
                 SAIBA MAIS</a>
               </div>
           
@@ -56,7 +56,7 @@
       </div>
       </section>
 
-      <section class="main-versions">
+      <section class="main-versions" id="versoes">
 
         <h1>Versões</h1>
         <p>Confira as principais versões do principal personagem de um desenho que movimentou gerações.</p>
@@ -68,7 +68,7 @@
             <div class="card-body">
               <h5 class="card-title">Super Saiyajin Azul</h5>
               <p class="card-text">Uma das transformações mais famosas de Goku atualmente, ela foi mostrada pela primeira vez no filme Dragon Ball Z – O Retorno de F, que consiste no Super Saiyajin Deus transformar-se em Super Saiyajin. Ela é extremamente poderosa, mas também faz Goku e Vegeta gastarem bastante energia até que ela seja completamente dominada.</p>
-              <a href="#" class="btn btn-primary">Saiba mais</a>
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#supersayadinblue">Saiba mais</a>
             </div>
           </div>
 
@@ -77,7 +77,7 @@
             <div class="card-body">
               <h5 class="card-title">Super Saiyajin Azul Kaioken</h5>
               <p class="card-text">Transformação exclusiva do anime, onde Goku combina o poder do Kaioken ao Super Saiyajin Blue. Ela gasta bastante energia, mas também aumenta em muito o poder do Saiyajin.</p>
-              <a href="#" class="btn btn-primary">Saiba mais</a>
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#supersayadinblue">Saiba mais</a>
             </div>
           </div>
 
@@ -86,7 +86,7 @@
             <div class="card-body">
               <h5 class="card-title">Goku Criança Adulto</h5>
               <p class="card-text">No começo de Dragon Ball GT, Pilaf faz o desejo de que Goku voltasse a ser criança para Shenlong e assim ele permanece pelo anime.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#supersayadinblue">Saiba mais</a>
             </div>
           </div>
 
@@ -95,7 +95,7 @@
             <div class="card-body">
               <h5 class="card-title">Goku Criança Adulto</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#supersayadinblue">Saiba mais</a>
             </div>
           </div>
 
@@ -104,7 +104,7 @@
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#supersayadinblue">Saiba mais</a>
             </div>
           </div>
 
@@ -113,40 +113,10 @@
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#supersayadinblue">Saiba mais</a>
             </div>
           </div>
         </div>
-
-        <div class="modal-versions">
-            <!-- Button trigger modal -->
-              <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                Confira as demais versões
-              </button>
-
-              <!-- Modal -->
-              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      <h5>Popover in a modal</h5>
-                      <p>This <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover" title="Popover title" data-bs-content="Popover body content is set in this attribute.">button</a> triggers a popover on click.</p>
-                      <hr>
-                      <h5>Tooltips in a modal</h5>
-                      <p><a href="#" data-bs-toggle="tooltip" title="Tooltip">This link</a> and <a href="#" data-bs-toggle="tooltip" title="Tooltip">that link</a> have tooltips on hover.</p>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Understood</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
       </section>
 
       <section class="newslatter" id="news">
@@ -171,12 +141,52 @@
     </main>
 
     <footer>
-      <div class="container-footer">
+      <div class="container-footer" id="equipe">
           <h1>Saiba mais sobre o time</h1>
           <p>Descrição do time</p>
           <div class="profiles">
 
-           
+            <div class="card" style="width: 18rem;">
+              <img src="https://media-exp2.licdn.com/dms/image/C4D03AQE0bPWYsMMzQg/profile-displayphoto-shrink_200_200/0/1652654502528?e=1662595200&v=beta&t=h4N_TZBtWSKxxadyZm7WiJYtXeE-v5fkh9uLRc-57Kw" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mauricio Corrêa Alves</h5>
+                <p style="color: black; font-size: 1rem" class="card-text">Alguma descrição do aluno vai vir aqui.</p>
+              </div>
+
+              <ul class="list-group list-group-flush social-item">
+                <li class="list-group-item"><a href="Linkedin"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="">Linkedin</a></li>
+                <li class="list-group-item"><a href="Linkedin"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/480px-Facebook_logo_%28square%29.png" alt="">Facebook</a></li>
+                <li class="list-group-item"><a href="Linkedin"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="">Github</a></li>
+              </ul>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img src="./images/marcelramos.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mauricio Corrêa Alves</h5>
+                <p style="color: black; font-size: 1rem" class="card-text">Alguma descrição do aluno vai vir aqui.</p>
+              </div>
+
+              <ul class="list-group list-group-flush social-item">
+                <li class="list-group-item"><a href="Linkedin"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="">Linkedin</a></li>
+                <li class="list-group-item"><a href="Linkedin"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/480px-Facebook_logo_%28square%29.png" alt="">Facebook</a></li>
+                <li class="list-group-item"><a href="Linkedin"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="">Github</a></li>
+              </ul>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+              <img src="https://media-exp2.licdn.com/dms/image/C4D03AQE0bPWYsMMzQg/profile-displayphoto-shrink_200_200/0/1652654502528?e=1662595200&v=beta&t=h4N_TZBtWSKxxadyZm7WiJYtXeE-v5fkh9uLRc-57Kw" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mauricio Corrêa Alves</h5>
+                <p style="color: black; font-size: 1rem" class="card-text">Alguma descrição do aluno vai vir aqui.</p>
+              </div>
+
+              <ul class="list-group list-group-flush social-item">
+                <li class="list-group-item"><a href="Linkedin"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="">Linkedin</a></li>
+                <li class="list-group-item"><a href="Linkedin"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/480px-Facebook_logo_%28square%29.png" alt="">Facebook</a></li>
+                <li class="list-group-item"><a href="Linkedin"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="">Github</a></li>
+              </ul>
+            </div>
         
        
 
@@ -192,6 +202,25 @@
     <span class="end-site">
       <p> < Trabalho realizado para o checkpoint 02 - FrontEnd ></Trabalho></p>
     </span>
+
+    <div class="modal fade modal-lg" id="supersayadinblue" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <iframe width="100%" height="400" src="https://www.youtube.com/embed/fBGEywIjG2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <h1>Saiba mais sobre o super sayadin azul</h1>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, officia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque neque repellat placeat nam facere, quod quos? Dolorem, id quod, perspiciatis tempore quia debitis optio minus officia vel minima, eveniet praesentium alias cupiditate eius incidunt quisquam nulla. Deleniti animi amet quam placeat veniam? Ipsa dolorum aperiam alias nam in ab qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolorem veniam pariatur magnam repellendus molestiae facere vel ut facilis, ratione eum earum itaque provident accusantium. Error ipsum dolores deleniti. Consequatur animi, ab doloremque laudantium et, dolorem ipsum harum nobis fuga, iure mollitia! Tempora at quis, fuga debitis vero ratione beatae, consectetur nam dolores culpa perspiciatis! Possimus molestias, quidem quaerat odit blanditiis debitis quae illum magni unde, recusandae, vel nesciunt. Soluta cupiditate rem nisi a odit iste expedita qui, praesentium mollitia placeat illum quisquam tempore magnam tenetur? Placeat sint ducimus perferendis quas culpa magni voluptate rerum sequi voluptatem reprehenderit, laboriosam aspernatur unde similique distinctio tempore illum! Nostrum recusandae inventore harum amet, labore excepturi perferendis architecto! Tenetur nisi atque possimus qui neque aperiam deserunt deleniti cum sapiente aliquam delectus repudiandae vero aliquid voluptatem tempora suscipit dolores esse sunt quod modi explicabo, voluptas assumenda culpa! Accusantium amet repellendus odit labore sit ab inventore nemo dignissimos magni suscipit vitae beatae dicta quasi voluptas temporibus hic, impedit, repellat modi, necessitatibus officiis maiores et soluta! Animi, nobis quis asperiores minima ex tempore aperiam libero, voluptatum sint a mollitia maxime corrupti ut quam sapiente illo maiores ab hic voluptas autem soluta? Dolores unde recusandae hic delectus distinctio.</p>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
 
     <!-- JavaScript Bundle with Popper -->
     <script
